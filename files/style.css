@@ -8,16 +8,131 @@ h1 {
   color: #F57A9D;
 }
 
-img {
-  border: 4px solid gold;
-  border-radius: 100%;
-  transition-duration: 0.4s;
+h2 {
+  font-family: "Montserrat";
+  color: #C492B1;
+  font-size: 25px;
 }
 
-img:hover {
+.avatar {
+  border: 4px solid #89B8C0;
+  border-radius: 100%;
+  transition-duration: 0.4s;
+  height: 150px;
+  width: 150px;
+}
+
+.avatar:hover {
   border: 4px solid violet;
 }
 
 .center {
   text-align: center;
+}
+
+#com > button {
+  font-family: "Montserrat";
+  background-color: #F05D5E;
+  border: 2px solid #CC3363;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  padding: 5px;
+  font-size: 12px;
+}
+
+#com > button:hover {
+  background-color: #9A275A;
+}
+
+#social > button > img {
+  background-color: #495F72;
+  border-radius: 100%;
+  height: 45px;
+  width: 45px;
+}
+
+#social > button {
+  background-color: #495F72;
+  border-radius: 100%;
+  border: none;
+  cursor: pointer;
+}
+
+#gallery {
+  display: flex;
+  flex-direction: row;
+}
+
+#gallery > div {
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+#gallery > div > picture > img {
+  position: relative;
+  width: 100%;
+  height: 32%;
+  border: 2px solid black;
+  border-radius: 4%;
+}
+
+.cemoji {
+  display: inline;
+  width: 10px;
+  height: 10px;
+}
+
+a {
+  color: #fff; /* NEEDS HEX CODE */
+}
+
+.bottom, .bottom2 {
+  /* position: absolute; */
+  position: block;
+  bottom: 5px;
+  width: 100%;
+  height: 20px;
+  background-color: #23272A;
+  border-radius: 6px;
+  text-align: center;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: "Baloo Tamma 2";
+}
+
+.bottom2 {
+  height: 50px;
+  display: none;
+}
+
+@media (max-width: 599px) {
+  .bottom {
+    display: none;
+  }
+  .bottom2 {
+    display: block;
+  }
+  .avatar {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+@media (min-width: 600px) {
+  .avatar {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media (min-width: 900px) {
+  .bottom {
+    display: block;
+  }
+  .bottom2 {
+    display: none;
+  }
 }

@@ -2,16 +2,101 @@
 <html lang="en">
   <head>
     <link href="files/style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Baloo+Tamma+2&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>grain of sand</title>
   </head>
   <header>
     <div class="center">
-      <img src="files/avatar.jpg" alt="grain of sand's avatar"/>
+      <picture>
+        <!-- <source type="image/webp" srcset="files/avatar.webp"> -->
+        <source type="image/png" srcset="files/avatar.png">
+        <img class="avatar" src="files/avatar.png" alt="grain of sand's avatar"/>
+      </picture>
       <h1>grain of sand</h1>
-      <!--sse--> <!--/sse-->
+      <!--sse--><div id="social">
+        <button onclick="window.open('https://discord.gg/QgDr3Z7', '_blank')"><img src="files/social/discord.jpeg" alt="Discord Social Media Button"/></button>
+        <button onclick="window.open('https://twitter.com/_danGEr_nOODL/', '_blank')"><img src="files/social/twitter.png" alt="Twitter Social Media Button"/></button>
+        <button onclick="window.open('https://www.youtube.com/channel/UC4hyS19XAqnRGY2I5O4xoYQ', '_blank')"><img src="files/social/youtube.png" alt="Youtube Social Media Button"/></button>
+        <button onclick="window.open('mailto:gwainn@grainofsand.art', '_blank')"><img src="files/social/email.png" alt="Email Social Media Button"/></button>
+    </div><br/>
+    <div id="com">
+      <button onclick="window.open('comission.html', '_self')">Commission Me</button>
+      <button onclick="window.open('prices.html', '_self')">My Commission Prices</button>
+      <button onclick="window.open('tos.html', '_self')">Commission TOS</button>
     </div>
+  <!--/sse--></div>
   <body>
+    <h2 class="center">Art Gallery</h2>
+    <!-- <i class="center">Note: Art is displayed at a Lower Quality</i> -->
+    <div id="gallery">
+      <div>
+        <picture>
+          <!-- <source type="image/webp" srcset="files/examples/comfy_bongo.webp"> -->
+          <source type="image/png" srcset="files/examples/comfy_bongo.png">
+          <img src="files/examples/comfy_bongo.png"/>
+        </picture>
+        <picture>
+          <!-- <source type="image/webp" srcset="files/examples/king_stand.webp"> -->
+          <source type="image/png" srcset="files/examples/king_stand.png">
+          <img src="files/examples/king_stand.png"/>
+        </picture>
+        <picture>
+          <!-- <source type="image/webp" srcset="files/examples/fursona.webp"> -->
+          <source type="image/png" srcset="files/examples/fursona.png">
+          <img src="files/examples/fursona.png"/>
+        </picture>
+      </div><div>
+        <picture>
+          <!-- <source type="image/webp" srcset="files/examples/devil.webp"> -->
+          <source type="image/png" srcset="files/examples/devil.png">
+          <img src="files/examples/devil.png"/>
+        </picture>
+        <picture>
+          <!-- <source type="image/webp" srcset="files/examples/king_closeup.webp"> -->
+          <source type="image/png" srcset="files/examples/king_closeup.png">
+          <img src="files/examples/king_closeup.png"/>
+        </picture>
+        <picture>
+          <!-- <source type="image/webp" srcset="files/examples/neko_peace.webp"> -->
+          <source type="image/png" srcset="files/examples/neko_peace.png">
+          <img src="files/examples/neko_peace.png"/>
+        </picture>
+      </div>
+      <div>
+        <picture>
+          <!-- <source type="image/webp" srcset="files/examples/heartbroken.webp"> -->
+          <source type="image/png" srcset="files/examples/heartbroken.png">
+          <img src="files/examples/heartbroken.png"/>
+        </picture>
+        <picture>
+          <!-- <source type="image/webp" srcset="files/examples/king_banner.webp"> -->
+          <source type="image/png" srcset="files/examples/king_banner.png">
+          <img src="files/examples/king_banner.png"/>
+        </picture>
+        <picture>
+          <!-- <source type="image/webp" srcset="files/examples/minecraft_cow.webp"> -->
+          <source type="image/png" srcset="files/examples/minecraft_cow.png">
+          <img src="files/examples/minecraft_cow.png"/>
+        </picture>
+      </div>
+    </div>
   </body>
+  <footer>
+    <br/><div class="bottom">
+      <picture>
+        <source type="image/webp" srcset="files/copyright.webp">
+        <source type="image/png" srcset="files/copyright.png">
+        <img src="files/copyright.png" class="cemoji" alt="©️"/>
+      </picture> Copyright 2021 grain of sand - This Website is Under the <a href="https://github.com/grain-ofsand/grain-ofsand.github.io/blob/master/LICENSE">GPL-3.0 License</a></div>
+    <div class="bottom2">
+      <div>
+        <picture>
+          <source type="image/webp" srcset="files/copyright.webp">
+          <source type="image/png" srcset="files/copyright.png">
+          <img src="files/copyright.png" class="cemoji" alt="©️"/>
+        </picture> Copyright 2021 grain of sand</div>
+      <div>This Website is Under the <a href="https://github.com/grain-ofsand/grain-ofsand.github.io/blob/master/LICENSE">GPL-3.0 License</a></div>
+    </div>
+  </footer>
 </html>
