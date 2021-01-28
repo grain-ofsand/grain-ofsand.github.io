@@ -1,5 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background-color: #495F72
+  background-color: #495F72;
 }
 
 h1 {
@@ -12,6 +16,30 @@ h2 {
   font-family: "Montserrat";
   color: #C492B1;
   font-size: 25px;
+}
+
+h3 {
+  font-family: "Montserrat";
+  color: white;
+  font-size: 18.5px;
+}
+
+button {
+  text-decoration: none;
+  padding: 1px 10px;
+  background-color: #495F72;
+  color: orange;
+  font-size: 15.5px;
+  transition-duration: 0.4s;
+  border: 2px solid #4caf50;
+  border-radius: 8px;
+  font-family: "Montserrat";
+}
+
+button:hover {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
 }
 
 .avatar {
@@ -85,7 +113,19 @@ h2 {
 }
 
 a {
-  color: #fff; /* NEEDS HEX CODE */
+  transition-duration: 0.4s;
+  color: #7af5d2;
+}
+
+a:hover {
+  color: #ffd600;
+  cursor: pointer;
+}
+
+p, li {
+  font-size: 16.6px;
+  font-family: "Montserrat";
+  color: orange;
 }
 
 .bottom, .bottom2 {
@@ -119,12 +159,26 @@ a {
     height: 150px;
     width: 150px;
   }
+  #youtube-video {
+    width: 300px;
+    height: 200px;
+  }
+  p {
+    text-indent: 0px;
+  }
 }
 
 @media (min-width: 600px) {
   .avatar {
     height: 200px;
     width: 200px;
+  }
+  #youtube-video {
+    width: 560px;
+    height: 315px;
+  }
+  p {
+    text-indent: 10px;
   }
 }
 
