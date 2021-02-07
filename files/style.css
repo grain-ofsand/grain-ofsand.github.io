@@ -148,6 +148,18 @@ p, li {
   display: none;
 }
 
+@media (max-height: 799px) {
+  .bottom3 {
+    position: block;
+  }
+}
+
+@media (min-height: 800px) {
+  .bottom3 {
+    position: absolute;
+  }
+}
+
 @media (max-width: 599px) {
   .bottom {
     display: none;
@@ -188,5 +200,9 @@ p, li {
   }
   .bottom2 {
     display: none;
+  }
+  .smaller-image-on-pc {
+    width: 30%;
+    height: 30%;
   }
 }
