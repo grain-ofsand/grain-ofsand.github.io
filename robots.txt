@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://grainofsand.art/sitemap.xml
