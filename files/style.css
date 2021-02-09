@@ -107,6 +107,12 @@ button:hover {
   border-radius: 4%;
 }
 
+#low-quality {
+  text-indent: 0px;
+  padding: 0px;
+  color: gold;
+}
+
 .cemoji {
   display: inline;
   width: 10px;
